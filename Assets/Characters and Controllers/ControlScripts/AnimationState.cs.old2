@@ -1,0 +1,260 @@
+using UnityEngine;
+using System.Collections;
+
+[System.Serializable]
+public class AnimationClips {
+    public AnimationClip idleAnimation; // idle animation
+    public AnimationClip digWallAnimation; // dig into wall animation
+    public AnimationClip toNeutralAnimation; // move to a climb position (one pickaxe up)
+    public AnimationClip liftLeftAnimation; // left pick up transition
+    public AnimationClip liftRightAnimation; // right pick up transition
+    public AnimationClip jumpAnimation; // jump animation
+    public AnimationClip swingAxeAnimation; // same as digwall
+    public AnimationClip fallAnimation; // falling animation
+    public AnimationClip hitGroundAnimation; // landing animation
+    // animation speeds
+    public float idleAnimationSpeed         = 1.0f; // idle animation
+    public float digWallAnimationSpeed      = 1.0f; // dig into wall animation
+    public float toNeutralAnimationSpeed    = 1.0f; // move to a climb position (one pickaxe up)
+    public float liftLeftAnimationSpeed     = 1.0f; // left pick up transition
+    public float liftRightAnimationSpeed    = 1.0f; // right pick up transition
+    public float jumpAnimationSpeed         = 1.0f; // jump animation
+    public float swingAxeAnimationSpeed     = 1.0f; // same as digwall
+    public float fallAnimationSpeed         = 1.0f; // fall animation
+    public float hitGroundAnimationSpeed    = 1.0f; // landing animation
+};
+
+public enum AnimState {
+    idle,
+    falling,
+    land,
+    jump,
+    jumping,
+    grabWall,
+    swingAxe,
+    startClimbing,
+    toNeutral,
+    liftRight,
+    liftLeft,
+    climbing
+};
+
+public class AnimationState : MonoBehaviour {
+    // animation clips
+    public AnimationClips animations;
+    // current animation
+    private Animation _animation;
+    private bool leftAxeUp = false;
+    //private int climbAnim = 0;
+    private AnimState state = AnimState.idle;
+    private AnimState last = AnimState.idle;
+    public float crossFadeTime = 1.0f;
+    private ParkourController controller;
+
+	void Awake () {
+        // we MUST have the axe parented to this game object, and the axe needs
+        // to have the animator AND animation components
+        if (!_animation) {
+            _animation = transform.Find("Axe").GetComponent<Animation>();
+            Debug.Log(transform.Find("Axe") == null);
+            if (!_animation) {
+                Debug.Log("The character the controller is attached to doesn't have animations.  Moving them might look weird.");
+            }
+        }
+	}
+
+    void Start() {
+        if (!_animation) {
+            _animation = transform.Find("Axe").GetComponent<Animation>();
+            Debug.Log(transform.Find("Axe") == null);
+            if (!_animation) {
+                Debug.Log("The character the controller is attached to doesn't have animations.  Moving them might look weird.");
+            }
+        }
+
+        controller = GetComponent<ParkourController>();
+
+        //// defaults for the animations just in case one isn't set, defaults to idle
+        //if (!animations.idleAnimation) {
+        //    animations.idleAnimation = _animation["Idle"];
+        //}
+        //if (!animations.digWallAnimation) {
+        //    animations.digWallAnimation = _animation["DigIntoWall"];
+        //}
+        //if (!animations.toNeutralAnimation) {
+        //    animations.toNeutralAnimation = _animation["MoveToNeutralClimb"];
+        //}
+        //if (!animations.liftLeftAnimation) {
+        //    animations.liftLeftAnimation = _animation["LiftLeftPick"];
+        //}
+        //if (!animations.liftRightAnimation) {
+        //    animations.liftRightAnimation = _animation["LiftRightPick"];
+        //}
+        //if (!animations.jumpAnimation) {
+        //    animations.jumpAnimation = _animation["Jump"];
+        //}
+        //if (!animations.fallAnimation) {
+        //    animations.fallAnimation = _animation["Fall"];
+        //}
+        //if (!animations.hitGroundAnimation) {
+        //    animations.hitGroundAnimation = _animation["Hit Ground"];
+        //}
+        //if (!animations.swingAxeAnimation) {
+        //    animations.swingAxeAnimation = animations.digWallAnimation;
+        //}
+        // set the animation speeds
+        _animation[animations.idleAnimation.name].speed      = animations.idleAnimationSpeed;
+        _animation[animations.digWallAnimation.name].speed   = animations.digWallAnimationSpeed;
+        _animation[animations.toNeutralAnimation.name].speed = animations.toNeutralAnimationSpeed;
+        _animation[animations.liftLeftAnimation.name].speed  = animations.liftLeftAnimationSpeed;
+        _animation[animations.liftRightAnimation.name].speed = animations.liftRightAnimationSpeed;
+        _animation[animations.jumpAnimation.name].speed      = animations.jumpAnimationSpeed;
+        _animation[animations.swingAxeAnimation.name].speed  = animations.swingAxeAnimationSpeed;
+        _animation[animations.fallAnimation.name].speed      = animations.fallAnimationSpeed;
+        _animation[animations.hitGroundAnimation.name].speed = animations.hitGroundAnimationSpeed;
+        // set the wrapping for the animations
+        _animation[animations.idleAnimation.name].wrapMode      = WrapMode.Once;
+        _animation[animations.digWallAnimation.name].wrapMode   = WrapMode.Once;
+        _animation[animations.toNeutralAnimation.name].wrapMode = WrapMode.Once;
+        _animation[animations.liftLeftAnimation.name].wrapMode  = WrapMode.Once;
+        _animation[animations.liftRightAnimation.name].wrapMode = WrapMode.Once;
+        _animation[animations.jumpAnimation.name].wrapMode      = WrapMode.Once;
+        _animation[animations.swingAxeAnimation.name].wrapMode  = WrapMode.Once;
+        _animation[animations.fallAnimation.name].wrapMode      = WrapMode.Once;
+        _animation[animations.hitGroundAnimation.name].wrapMode = WrapMode.Once;
+    }
+
+    void SetState(AnimState newState) {
+        last = state;
+        state = newState;
+    }
+    
+    void UpdateState() {
+        // special cases
+        if (controller.isJumping() && !(state == AnimState.jump || state == AnimState.jumping)) {
+            // if the controller is jumping but our state isn't
+            state = AnimState.jump;
+        }
+        else if (controller.climbTopZone() && (state == AnimState.climbing || state == AnimState.startClimbing)) {
+            state = AnimState.idle;
+        }
+        else {
+            switch (controller.state) {
+            case MoveState.none:
+                state = AnimState.idle;
+                break;
+            case MoveState.startClimbing:
+                state = AnimState.startClimbing;
+                break;
+            case MoveState.climbing:
+                state = AnimState.climbing;
+                break;
+            case MoveState.hoisting:
+                state = AnimState.climbing;
+                break;
+            };
+        }
+        //// check first to make sure the animations exist
+        //if (_animation) {
+        //    // if the character is jumping
+        //    if (controller.isJumping()) {//state == MoveState.Jumping) {
+        //        _animation[animations.jumpAnimation.name].speed = animations.jumpAnimationSpeed;
+        //        _animation[animations.jumpAnimation.name].wrapMode = WrapMode.Once;
+        //        _animation.CrossFade(animations.jumpAnimation.name);
+        //        // next animation
+        //        _animation[animations.fallAnimation.name].speed = animations.fallAnimationSpeed;
+        //        _animation[animations.fallAnimation.name].wrapMode = WrapMode.Once;
+        //        _animation.CrossFadeQueued(animations.fallAnimation.name, crossFadeTime, QueueMode.CompleteOthers);
+        //    }
+        //    else if (controller.isGrounded()) {
+        //        _animation[animations.hitGroundAnimation.name].speed = animations.hitGroundAnimationSpeed;
+        //        _animation[animations.hitGroundAnimation.name].wrapMode = WrapMode.Once;
+        //        _animation.CrossFadeQueued(animations.hitGroundAnimation.name, crossFadeTime, QueueMode.CompleteOthers);
+        //    }
+        //    else if (state == AnimState.jump && controller.isGrounded()) {
+        //        //_animation[hitGroundAnimation].speed = 
+        //    }
+        //    else {
+        //        if (state == AnimState.startClimbing) {
+        //            //animations.climbAnim += 1;
+        //            _animation[animations.digWallAnimation.name].speed = animations.digWallAnimationSpeed;
+        //            _animation[animations.digWallAnimation.name].wrapMode = WrapMode.Once;
+        //            _animation.CrossFade(animations.digWallAnimation.name);
+
+        //            //animations.climbAnim += 1;
+        //            _animation[animations.toNeutralAnimation.name].speed = animations.toNeutralAnimationSpeed;
+        //            _animation[animations.toNeutralAnimation.name].wrapMode = WrapMode.Once;
+        //            _animation.CrossFadeQueued(animations.liftRightAnimation.name, crossFadeTime, QueueMode.CompleteOthers);
+        //        }
+        //        else if (state == AnimState.climbing) {
+        //            if (leftAxeUp) { // test if even or odd
+        //                //animations.climbAnim += 1;
+        //                _animation[animations.liftLeftAnimation.name].speed = animations.liftLeftAnimationSpeed;
+        //                _animation[animations.liftLeftAnimation.name].wrapMode = WrapMode.Once;
+        //                _animation.CrossFadeQueued(animations.liftLeftAnimation.name, crossFadeTime, QueueMode.CompleteOthers);
+        //            }
+        //            else {
+        //                //animations.climbAnim += 1;
+        //                _animation[animations.liftRightAnimation.name].speed = animations.liftRightAnimationSpeed;
+        //                _animation[animations.liftRightAnimation.name].wrapMode = WrapMode.Once;
+        //                _animation.CrossFadeQueued(animations.liftRightAnimation.name, crossFadeTime, QueueMode.CompleteOthers);
+        //            }
+        //            if (controller.climbTopZone()) {
+        //                //animations.climbAnim = 0;
+        //            }
+        //        }
+        //        //else if (state == ) {
+        //        //}
+        //        else { // fell through to idle
+        //            _animation[_animation.clip.name].speed = animations.idleAnimationSpeed;
+        //            _animation[_animation.clip.name].wrapMode = WrapMode.Once;
+        //            _animation.CrossFade(_animation.clip.name);
+        //        }
+        //    }
+        //}
+    }
+
+    void PlayAnimation() {
+        if (state == AnimState.climbing) {
+            // climbing
+            if ((_animation.clip.name != animations.liftRightAnimation.name || !_animation.IsPlaying(animations.liftRightAnimation.name)) && leftAxeUp) {
+                _animation.CrossFade(animations.liftRightAnimation.name);
+                leftAxeUp = !leftAxeUp;
+            }
+            else if ((_animation.clip.name != animations.liftLeftAnimation.name || !_animation.IsPlaying(animations.liftLeftAnimation.name)) && !leftAxeUp) {
+                _animation.CrossFade(animations.liftLeftAnimation.name);
+                leftAxeUp = !leftAxeUp;
+            }
+        }
+        else if (state == AnimState.grabWall || state == AnimState.startClimbing) {
+            // grabbing a wall
+            _animation.CrossFadeQueued(animations.digWallAnimation.name, 0.1f, QueueMode.CompleteOthers);
+            // queue the transition to neutral and climbing
+            _animation.CrossFadeQueued(animations.toNeutralAnimation.name, 0.1f, QueueMode.CompleteOthers);
+            _animation.CrossFadeQueued(animations.liftLeftAnimation.name, 0.1f, QueueMode.CompleteOthers);
+            leftAxeUp = true;
+        }
+        else if ((state == AnimState.jumping || state == AnimState.falling) && controller.isGrounded()) {
+            // finished jumping, we've landed
+            _animation.CrossFade(animations.hitGroundAnimation.name);
+            SetState(AnimState.land);
+        }
+        else if (state == AnimState.jumping && controller.jumpReachedApex()) {
+            // reached top of jump, now we're falling
+            _animation.CrossFade(animations.fallAnimation.name);
+            SetState(AnimState.falling);
+        }
+        else if (state == AnimState.jump && controller.isJumping()) {
+            _animation.CrossFade(animations.jumpAnimation.name);
+        }
+        else {
+            _animation.CrossFade(animations.idleAnimation.name);
+        }
+    }
+	
+	// Update is called once per frame
+	void Update () {
+        UpdateState();
+        PlayAnimation();
+	}
+};

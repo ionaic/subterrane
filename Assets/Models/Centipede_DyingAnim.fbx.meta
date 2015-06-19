@@ -1,0 +1,686 @@
+fileFormatVersion: 2
+guid: 546d9c00a4c304beba24677e7633502e
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CentipedeWalkAnimationAltAfterMirrorDelete4:butt
+    100004: CentipedeWalkAnimationAltAfterMirrorDelete4:buttface
+    100006: CentipedeWalkAnimationAltAfterMirrorDelete4:centipede_mesh
+    100008: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_bend1
+    100010: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_bend2
+    100012: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_end
+    100014: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_start
+    100016: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_elbow
+    100018: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_shoulder
+    100020: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_start
+    100022: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_tip
+    100024: CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_bend
+    100026: CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_end
+    100028: CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_start
+    100030: CentipedeWalkAnimationAltAfterMirrorDelete4:left_giantmouthclaw_start
+    100032: CentipedeWalkAnimationAltAfterMirrorDelete4:left_giantmouthclaw_start
+      1
+    100034: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow1
+    100036: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow2
+    100038: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow3
+    100040: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow4
+    100042: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow5
+    100044: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow6
+    100046: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow7
+    100048: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow8
+    100050: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow9
+    100052: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel1
+    100054: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel1 1
+    100056: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel2
+    100058: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel3
+    100060: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel4
+    100062: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel5
+    100064: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel6
+    100066: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel7
+    100068: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel8
+    100070: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel9
+    100072: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder1
+    100074: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder2
+    100076: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder3
+    100078: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder4
+    100080: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder5
+    100082: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder6
+    100084: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder7
+    100086: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder8
+    100088: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder9
+    100090: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start1
+    100092: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start2
+    100094: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start3
+    100096: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start4
+    100098: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start5
+    100100: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start6
+    100102: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start7
+    100104: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start8
+    100106: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start9
+    100108: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip1
+    100110: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip1 1
+    100112: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip2
+    100114: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip3
+    100116: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip4
+    100118: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip5
+    100120: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip6
+    100122: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip7
+    100124: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip8
+    100126: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip9
+    100128: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist1
+    100130: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist10
+    100132: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist2
+    100134: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist3
+    100136: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist4
+    100138: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist5
+    100140: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist6
+    100142: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist7
+    100144: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist8
+    100146: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist9
+    100148: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_bend1
+    100150: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_bend2
+    100152: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_end
+    100154: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_start
+    100156: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_elbow
+    100158: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_shoulder
+    100160: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_start
+    100162: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_tip
+    100164: CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_bend
+    100166: CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_end
+    100168: CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_start
+    100170: CentipedeWalkAnimationAltAfterMirrorDelete4:right_giantmouthclaw_start
+    100172: CentipedeWalkAnimationAltAfterMirrorDelete4:right_giantmouthclaw_start
+      1
+    100174: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow1
+    100176: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow2
+    100178: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow3
+    100180: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow4
+    100182: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow5
+    100184: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow6
+    100186: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow7
+    100188: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow8
+    100190: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow9
+    100192: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel1
+    100194: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel2
+    100196: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel3
+    100198: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel4
+    100200: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel5
+    100202: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel6
+    100204: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel7
+    100206: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel8
+    100208: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel9
+    100210: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder1
+    100212: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder2
+    100214: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder3
+    100216: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder4
+    100218: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder5
+    100220: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder6
+    100222: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder7
+    100224: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder8
+    100226: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder9
+    100228: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start1
+    100230: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start2
+    100232: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start3
+    100234: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start4
+    100236: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start5
+    100238: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start6
+    100240: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start7
+    100242: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start8
+    100244: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start9
+    100246: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip1
+    100248: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip2
+    100250: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip3
+    100252: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip4
+    100254: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip5
+    100256: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip6
+    100258: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip7
+    100260: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip8
+    100262: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip9
+    100264: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist1
+    100266: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist2
+    100268: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist3
+    100270: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist4
+    100272: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist5
+    100274: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist6
+    100276: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist7
+    100278: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist8
+    100280: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist9
+    100282: CentipedeWalkAnimationAltAfterMirrorDelete4:root_head
+    100284: CentipedeWalkAnimationAltAfterMirrorDelete4:segment1
+    100286: CentipedeWalkAnimationAltAfterMirrorDelete4:segment2
+    100288: CentipedeWalkAnimationAltAfterMirrorDelete4:segment3
+    100290: CentipedeWalkAnimationAltAfterMirrorDelete4:segment4
+    100292: CentipedeWalkAnimationAltAfterMirrorDelete4:segment5
+    100294: CentipedeWalkAnimationAltAfterMirrorDelete4:segment6
+    100296: CentipedeWalkAnimationAltAfterMirrorDelete4:segment7
+    400000: //RootNode
+    400002: CentipedeWalkAnimationAltAfterMirrorDelete4:butt
+    400004: CentipedeWalkAnimationAltAfterMirrorDelete4:buttface
+    400006: CentipedeWalkAnimationAltAfterMirrorDelete4:centipede_mesh
+    400008: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_bend1
+    400010: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_bend2
+    400012: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_end
+    400014: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_start
+    400016: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_elbow
+    400018: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_shoulder
+    400020: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_start
+    400022: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_tip
+    400024: CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_bend
+    400026: CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_end
+    400028: CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_start
+    400030: CentipedeWalkAnimationAltAfterMirrorDelete4:left_giantmouthclaw_start
+    400032: CentipedeWalkAnimationAltAfterMirrorDelete4:left_giantmouthclaw_start
+      1
+    400034: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow1
+    400036: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow2
+    400038: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow3
+    400040: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow4
+    400042: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow5
+    400044: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow6
+    400046: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow7
+    400048: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow8
+    400050: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow9
+    400052: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel1
+    400054: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel1 1
+    400056: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel2
+    400058: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel3
+    400060: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel4
+    400062: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel5
+    400064: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel6
+    400066: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel7
+    400068: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel8
+    400070: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel9
+    400072: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder1
+    400074: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder2
+    400076: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder3
+    400078: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder4
+    400080: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder5
+    400082: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder6
+    400084: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder7
+    400086: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder8
+    400088: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder9
+    400090: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start1
+    400092: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start2
+    400094: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start3
+    400096: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start4
+    400098: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start5
+    400100: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start6
+    400102: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start7
+    400104: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start8
+    400106: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start9
+    400108: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip1
+    400110: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip1 1
+    400112: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip2
+    400114: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip3
+    400116: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip4
+    400118: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip5
+    400120: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip6
+    400122: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip7
+    400124: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip8
+    400126: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip9
+    400128: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist1
+    400130: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist10
+    400132: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist2
+    400134: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist3
+    400136: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist4
+    400138: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist5
+    400140: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist6
+    400142: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist7
+    400144: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist8
+    400146: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist9
+    400148: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_bend1
+    400150: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_bend2
+    400152: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_end
+    400154: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_start
+    400156: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_elbow
+    400158: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_shoulder
+    400160: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_start
+    400162: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_tip
+    400164: CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_bend
+    400166: CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_end
+    400168: CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_start
+    400170: CentipedeWalkAnimationAltAfterMirrorDelete4:right_giantmouthclaw_start
+    400172: CentipedeWalkAnimationAltAfterMirrorDelete4:right_giantmouthclaw_start
+      1
+    400174: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow1
+    400176: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow2
+    400178: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow3
+    400180: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow4
+    400182: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow5
+    400184: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow6
+    400186: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow7
+    400188: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow8
+    400190: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow9
+    400192: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel1
+    400194: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel2
+    400196: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel3
+    400198: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel4
+    400200: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel5
+    400202: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel6
+    400204: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel7
+    400206: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel8
+    400208: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel9
+    400210: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder1
+    400212: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder2
+    400214: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder3
+    400216: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder4
+    400218: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder5
+    400220: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder6
+    400222: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder7
+    400224: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder8
+    400226: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder9
+    400228: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start1
+    400230: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start2
+    400232: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start3
+    400234: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start4
+    400236: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start5
+    400238: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start6
+    400240: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start7
+    400242: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start8
+    400244: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start9
+    400246: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip1
+    400248: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip2
+    400250: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip3
+    400252: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip4
+    400254: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip5
+    400256: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip6
+    400258: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip7
+    400260: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip8
+    400262: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip9
+    400264: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist1
+    400266: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist2
+    400268: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist3
+    400270: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist4
+    400272: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist5
+    400274: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist6
+    400276: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist7
+    400278: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist8
+    400280: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist9
+    400282: CentipedeWalkAnimationAltAfterMirrorDelete4:root_head
+    400284: CentipedeWalkAnimationAltAfterMirrorDelete4:segment1
+    400286: CentipedeWalkAnimationAltAfterMirrorDelete4:segment2
+    400288: CentipedeWalkAnimationAltAfterMirrorDelete4:segment3
+    400290: CentipedeWalkAnimationAltAfterMirrorDelete4:segment4
+    400292: CentipedeWalkAnimationAltAfterMirrorDelete4:segment5
+    400294: CentipedeWalkAnimationAltAfterMirrorDelete4:segment6
+    400296: CentipedeWalkAnimationAltAfterMirrorDelete4:segment7
+    4300000: CentipedeWalkAnimationAltAfterMirrorDelete4:centipede_mesh
+    7400000: Dying
+    7400002: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:root_head
+    7400004: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:segment1
+    7400006: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:segment2
+    7400008: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:segment3
+    7400010: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:segment4
+    7400012: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:segment5
+    7400014: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:segment6
+    7400016: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:segment7
+    7400018: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:butt
+    7400020: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:buttface
+    7400022: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_start
+    7400024: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_shoulder
+    7400026: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_elbow
+    7400028: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_tip
+    7400030: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_start
+    7400032: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_shoulder
+    7400034: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_elbow
+    7400036: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_tip
+    7400038: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start9
+    7400040: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder9
+    7400042: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow9
+    7400044: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist9
+    7400046: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel9
+    7400048: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip9
+    7400050: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start9
+    7400052: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder9
+    7400054: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow9
+    7400056: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist9
+    7400058: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel9
+    7400060: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip9
+    7400062: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start8
+    7400064: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder8
+    7400066: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow8
+    7400068: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist8
+    7400070: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel8
+    7400072: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip8
+    7400074: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start8
+    7400076: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder8
+    7400078: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow8
+    7400080: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist8
+    7400082: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel8
+    7400084: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip8
+    7400086: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start7
+    7400088: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder7
+    7400090: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow7
+    7400092: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist7
+    7400094: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel7
+    7400096: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip7
+    7400098: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start7
+    7400100: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder7
+    7400102: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow7
+    7400104: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist7
+    7400106: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel7
+    7400108: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip7
+    7400110: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start6
+    7400112: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder6
+    7400114: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow6
+    7400116: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist6
+    7400118: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel6
+    7400120: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip6
+    7400122: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start6
+    7400124: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder6
+    7400126: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow6
+    7400128: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist6
+    7400130: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel6
+    7400132: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip6
+    7400134: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start4
+    7400136: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder4
+    7400138: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow4
+    7400140: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist4
+    7400142: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel4
+    7400144: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip4
+    7400146: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start5
+    7400148: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder5
+    7400150: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow5
+    7400152: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist5
+    7400154: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel5
+    7400156: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip5
+    7400158: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start5
+    7400160: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder5
+    7400162: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow5
+    7400164: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist5
+    7400166: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel5
+    7400168: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip5
+    7400170: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start4
+    7400172: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder4
+    7400174: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow4
+    7400176: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist4
+    7400178: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel4
+    7400180: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip4
+    7400182: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start3
+    7400184: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder3
+    7400186: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow3
+    7400188: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist3
+    7400190: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel3
+    7400192: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip3
+    7400194: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start3
+    7400196: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder3
+    7400198: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow3
+    7400200: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist3
+    7400202: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel3
+    7400204: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip3
+    7400206: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start2
+    7400208: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder2
+    7400210: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow2
+    7400212: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist2
+    7400214: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel2
+    7400216: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip2
+    7400218: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start2
+    7400220: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder2
+    7400222: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow2
+    7400224: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist2
+    7400226: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel2
+    7400228: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip2
+    7400230: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start1
+    7400232: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder1
+    7400234: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow1
+    7400236: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist1
+    7400238: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel1
+    7400240: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip1
+    7400242: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start1
+    7400244: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder1
+    7400246: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow1
+    7400248: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist1
+    7400250: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel1
+    7400252: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip1
+    7400254: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist10
+    7400256: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel1
+      1
+    7400258: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip1
+      1
+    7400260: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_start
+    7400262: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_bend1
+    7400264: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_bend2
+    7400266: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_end
+    7400268: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_start
+    7400270: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_bend1
+    7400272: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_bend2
+    7400274: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_end
+    7400276: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_giantmouthclaw_start
+    7400278: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_giantmouthclaw_start
+      1
+    7400280: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_giantmouthclaw_start
+    7400282: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_giantmouthclaw_start
+      1
+    7400284: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_start
+    7400286: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_bend
+    7400288: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_end
+    7400290: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_start
+    7400292: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_bend
+    7400294: Dying //// CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_end
+    9500000: //RootNode
+    11100000: //RootNode
+    11100002: CentipedeWalkAnimationAltAfterMirrorDelete4:butt
+    11100004: CentipedeWalkAnimationAltAfterMirrorDelete4:buttface
+    11100006: CentipedeWalkAnimationAltAfterMirrorDelete4:centipede_mesh
+    11100008: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_bend1
+    11100010: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_bend2
+    11100012: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_end
+    11100014: CentipedeWalkAnimationAltAfterMirrorDelete4:left_antena_start
+    11100016: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_elbow
+    11100018: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_shoulder
+    11100020: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_start
+    11100022: CentipedeWalkAnimationAltAfterMirrorDelete4:left_buttleg_tip
+    11100024: CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_bend
+    11100026: CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_end
+    11100028: CentipedeWalkAnimationAltAfterMirrorDelete4:left_facewigglybit_start
+    11100030: CentipedeWalkAnimationAltAfterMirrorDelete4:left_giantmouthclaw_start
+    11100032: CentipedeWalkAnimationAltAfterMirrorDelete4:left_giantmouthclaw_start
+      1
+    11100034: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow1
+    11100036: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow2
+    11100038: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow3
+    11100040: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow4
+    11100042: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow5
+    11100044: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow6
+    11100046: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow7
+    11100048: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow8
+    11100050: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_elbow9
+    11100052: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel1
+    11100054: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel1 1
+    11100056: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel2
+    11100058: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel3
+    11100060: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel4
+    11100062: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel5
+    11100064: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel6
+    11100066: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel7
+    11100068: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel8
+    11100070: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_heel9
+    11100072: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder1
+    11100074: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder2
+    11100076: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder3
+    11100078: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder4
+    11100080: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder5
+    11100082: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder6
+    11100084: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder7
+    11100086: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder8
+    11100088: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_shoulder9
+    11100090: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start1
+    11100092: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start2
+    11100094: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start3
+    11100096: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start4
+    11100098: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start5
+    11100100: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start6
+    11100102: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start7
+    11100104: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start8
+    11100106: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_start9
+    11100108: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip1
+    11100110: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip1 1
+    11100112: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip2
+    11100114: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip3
+    11100116: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip4
+    11100118: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip5
+    11100120: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip6
+    11100122: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip7
+    11100124: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip8
+    11100126: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_tip9
+    11100128: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist1
+    11100130: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist10
+    11100132: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist2
+    11100134: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist3
+    11100136: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist4
+    11100138: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist5
+    11100140: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist6
+    11100142: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist7
+    11100144: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist8
+    11100146: CentipedeWalkAnimationAltAfterMirrorDelete4:left_leg1_wrist9
+    11100148: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_bend1
+    11100150: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_bend2
+    11100152: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_end
+    11100154: CentipedeWalkAnimationAltAfterMirrorDelete4:right_antena_start
+    11100156: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_elbow
+    11100158: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_shoulder
+    11100160: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_start
+    11100162: CentipedeWalkAnimationAltAfterMirrorDelete4:right_buttleg_tip
+    11100164: CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_bend
+    11100166: CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_end
+    11100168: CentipedeWalkAnimationAltAfterMirrorDelete4:right_facewigglybit_start
+    11100170: CentipedeWalkAnimationAltAfterMirrorDelete4:right_giantmouthclaw_start
+    11100172: CentipedeWalkAnimationAltAfterMirrorDelete4:right_giantmouthclaw_start
+      1
+    11100174: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow1
+    11100176: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow2
+    11100178: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow3
+    11100180: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow4
+    11100182: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow5
+    11100184: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow6
+    11100186: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow7
+    11100188: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow8
+    11100190: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_elbow9
+    11100192: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel1
+    11100194: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel2
+    11100196: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel3
+    11100198: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel4
+    11100200: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel5
+    11100202: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel6
+    11100204: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel7
+    11100206: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel8
+    11100208: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_heel9
+    11100210: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder1
+    11100212: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder2
+    11100214: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder3
+    11100216: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder4
+    11100218: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder5
+    11100220: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder6
+    11100222: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder7
+    11100224: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder8
+    11100226: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_shoulder9
+    11100228: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start1
+    11100230: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start2
+    11100232: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start3
+    11100234: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start4
+    11100236: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start5
+    11100238: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start6
+    11100240: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start7
+    11100242: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start8
+    11100244: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_start9
+    11100246: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip1
+    11100248: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip2
+    11100250: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip3
+    11100252: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip4
+    11100254: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip5
+    11100256: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip6
+    11100258: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip7
+    11100260: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip8
+    11100262: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_tip9
+    11100264: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist1
+    11100266: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist2
+    11100268: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist3
+    11100270: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist4
+    11100272: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist5
+    11100274: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist6
+    11100276: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist7
+    11100278: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist8
+    11100280: CentipedeWalkAnimationAltAfterMirrorDelete4:right_leg1_wrist9
+    11100282: CentipedeWalkAnimationAltAfterMirrorDelete4:root_head
+    11100284: CentipedeWalkAnimationAltAfterMirrorDelete4:segment1
+    11100286: CentipedeWalkAnimationAltAfterMirrorDelete4:segment2
+    11100288: CentipedeWalkAnimationAltAfterMirrorDelete4:segment3
+    11100290: CentipedeWalkAnimationAltAfterMirrorDelete4:segment4
+    11100292: CentipedeWalkAnimationAltAfterMirrorDelete4:segment5
+    11100294: CentipedeWalkAnimationAltAfterMirrorDelete4:segment6
+    11100296: CentipedeWalkAnimationAltAfterMirrorDelete4:segment7
+    13700000: CentipedeWalkAnimationAltAfterMirrorDelete4:centipede_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    clipAnimations:
+    - name: Dying
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 203
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

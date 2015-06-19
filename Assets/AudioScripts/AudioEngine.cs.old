@@ -1,0 +1,143 @@
+using UnityEngine;
+using System.Collections;
+
+public class AudioEngine : MonoBehaviour {
+
+    private enum SoundState {
+        none,
+        movingDownToCrouch,
+        movingDownToSlide,
+        movingUpFromSlide,        
+        hoisting,
+        vaultTakeOff,
+        vaultPlant,
+        vaultPushOff,
+        vaultLand,
+        startClimbing,            
+        climbing,
+        crawling,
+        running       
+    };
+    /*  ignoreMovingDownToCrouch,
+            ignoreMovingDownToSlide,
+            ignoreMovingUpFromSlide,        
+            ignoreHoisting,
+            ignoreVaultTakeOff,
+            ignoreVaultPlant,
+            ignoreVaultPushOff,
+            ignoreVaultLand,
+            ignoreStartClimbing,
+    */
+    private SoundState state = SoundState.none;
+    private SoundState lastState = SoundState.none;
+    private bool lastFrameJump = false;
+    private bool playJump = false;
+    private bool playLand = false;
+    
+    private ParkourController controller;
+    private CharacterMotor motor;
+    private SoundController sound;
+    private Vector3 directionVector;
+    
+	// Use this for initialization
+	void Start () {
+        controller = GetComponent<ParkourController>();
+        motor = GetComponent<CharacterMotor>();
+        sound = GetComponent<SoundController>();
+	}
+	
+	// Update is called once per frame
+	void Update () {
+        //if (lastFrameJump)
+
+        
+        lastState = state;        
+        if (controller.state == MoveState.movingDownToCrouch){
+            state = SoundState.movingDownToCrouch; return; }
+        if (controller.state == MoveState.movingDownToSlide){
+            state = SoundState.movingDownToSlide; return; }
+        if (controller.state == MoveState.movingUpFromSlide){
+            state = SoundState.movingUpFromSlide; return; }
+        if (controller.state == MoveState.hoisting){
+            state = SoundState.hoisting; return; }
+        if (controller.state == MoveState.vaultTakeOff){
+            state = SoundState.vaultTakeOff; return; }
+        if (controller.state == MoveState.vaultPlant){
+            state = SoundState.vaultPlant; return; }
+        if (controller.state == MoveState.vaultPushOff){
+            state = SoundState.vaultPushOff; return; }
+        if (controller.state == MoveState.vaultLand){
+            state = SoundState.vaultLand; return; }
+        if (controller.state == MoveState.startClimbing){
+            state = SoundState.startClimbing; return; }
+        if (controller.state == MoveState.climbing){
+            state = SoundState.climbing; return; }              
+    
+        directionVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+		if (directionVector != Vector3.zero){
+            if (controller.state == MoveState.crouching){
+                state = SoundState.crawling; return; }
+            if (controller.state == MoveState.none){
+                state = SoundState.running; return; }
+        }
+	
+        state = SoundState.none;
+	}
+    
+    void UpdateSoundState(){
+        if (playJump){
+            sound.Play("rubble_light");
+            playJump = false;
+        }
+        if (playLand){
+            sound.Play("land");
+            playLand = false;
+        }    
+		switch (state){
+        case SoundState.none:
+            break;
+        case SoundState.movingDownToCrouch:
+            if (lastState != SoundState.movingDownToCrouch)
+                
+            break;
+        case SoundState.movingDownToSlide:
+            if (lastState != SoundState.movingDownToSlide)
+                
+            break;
+        case SoundState.movingUpFromSlide:
+            if (lastState != SoundState.movingUpFromSlide)
+                
+            break;
+        case SoundState.hoisting:
+            if (lastState != SoundState.hoisting)
+                
+            break;
+        case SoundState.vaultTakeOff:
+            if (lastState != SoundState.vaultTakeOff)
+                
+            break;
+        case SoundState.vaultPlant:
+            if (lastState != SoundState.vaultPlant)
+                
+            break;
+        case SoundState.vaultPushOff:
+            if (lastState != SoundState.vaultPushOff)
+                
+            break;
+        case SoundState.vaultLand:
+            if (lastState != SoundState.vaultLand)
+                
+            break;
+        case SoundState.startClimbing:
+            if (lastState != SoundState.startClimbing)
+                
+            break;
+        case SoundState.climbing:
+            break;
+        case SoundState.crawling:
+            break;
+        case SoundState.running:
+            break;
+        };        
+    }
+}
